@@ -40,8 +40,6 @@ webpack compiled successfully
 ctrl + c
 ```
 
-**
-
 ## 開發工具
 
 * React 18.2.0
