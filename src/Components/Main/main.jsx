@@ -3,7 +3,7 @@ import styles from "./Main.module.scss";
 
 
 import Register from "./Register/register";
-// import Cart from "./cart";
+import Cart from "./Cart/cart";
 import ProgressControl from "./ProgressControl/progressControl ";
 
 
@@ -13,7 +13,7 @@ function Main() {
     <main className= {styles.siteMain} >
      <div className= {styles.mainContainer}>
       <Register />
-      {/* <Cart /> */}
+      <Cart />
       <ProgressControl />
      </div>
     </main>
