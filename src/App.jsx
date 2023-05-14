@@ -1,11 +1,9 @@
-import "Style/base.scss";
-import "Style/reset.scss";
-
-
 import React from "react";
-// import Header from "Components/Header";
+// import Header from "./Components/Header/header";
 import Main from "./Components/Main/main";
-// import Footer from "Components/Footer";
+// import Footer from "./Components/Footer/footer";
+
+import "Style/all.scss";
 
 
 function App() {

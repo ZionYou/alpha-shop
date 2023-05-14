@@ -1,6 +1,3 @@
-$screen-break-point: 749.5px;
-
-
 @mixin input-width($prefix, $division) {
   $form-full-width: 540;
 
@@ -11,14 +8,13 @@ $screen-break-point: 749.5px;
   }
 }
 
-
-main.siteMain {
+main.site-main {
   margin-top: 80px;
   padding-left: var(--site-edge-margin);
   padding-right: var(--site-edge-margin);
   background-color: inherit;
 
-  .mainContainer {
+  .main-container {
     display: flex;
     position: relative;
     max-width: 1100px;
@@ -27,7 +23,6 @@ main.siteMain {
     justify-content: space-between;
   }
 }
-
 
 @media screen and (min-width: $screen-break-point) {
   @include input-width('input-w-lg', 6);
@@ -52,7 +47,7 @@ main.siteMain {
     width: 100%;
   }
 
-  main.siteMain {
+  main.site-main {
     margin-top: 16px;
   }
 }

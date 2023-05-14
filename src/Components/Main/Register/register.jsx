@@ -1,16 +1,21 @@
-import styles from "./Register.module.scss";
+
+import StepProgress from "./StepProgress/stepProgress";
+
+import Step1 from "./Step/step1";
+import Step2 from "./Step/step2";
+import Step3 from "./Step/step3";
 
 
-import StepProgress from "./RegisterProgress/stepProgress";
-import RegisterFrom from "./RegisterFrom/registerFrom";
 
-
-function Register() {
+function Register({ dataPhase, totalPrice }) {
   return (
-  <section className={`${styles.registerContainer} col col-lg-6 col-sm-12`} data-phase="1" data-total-price="0">
-    <h2 className={`${styles.registerTitle} col col-12`}>結帳</h2>
-    <StepProgress />
-    <RegisterFrom /> 
+  <section className="register-container col col-lg-6 col-sm-12" data-phase={dataPhase} data-total-price={totalPrice}>
+      <StepProgress />
+    <section className="form-container col col-12">
+      <Step1 />
+      <Step2 />
+      <Step3 />
+    </section>
   </section>
   )
 }
