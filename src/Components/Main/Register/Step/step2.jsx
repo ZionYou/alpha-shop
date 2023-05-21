@@ -1,5 +1,3 @@
-
-
 function Form2({ text, price, time }) {
   return (
     <label className="radio-group col col-12" data-price={price} key={price}>
@@ -18,7 +16,6 @@ function Form2({ text, price, time }) {
     </label>
   )
 }
-
 
 export default function  Step2() {
   return (

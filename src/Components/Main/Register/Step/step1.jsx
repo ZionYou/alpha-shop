@@ -1,5 +1,3 @@
-
-
 function Cities() {
   const allCities = [
     {text: '請選擇縣市', value: ''},

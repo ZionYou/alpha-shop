@@ -1,5 +1,3 @@
-
-
 import { ReactComponent as RightArrowIcon} from 'Icons/right-arrow.svg';
 import { ReactComponent as LeftArrowIcon} from 'Icons/left-arrow.svg';
 
@@ -30,7 +28,7 @@ function Buttons( {text, className, onClick} ) {
     }
 }
 
-function ProgressControl({ onClick }) {
+export default function ProgressControl({ onClick }) {
   return (
     <>
       <section className="progress-control-container col col-lg-6 col-sm-12">
@@ -49,9 +47,3 @@ function ProgressControl({ onClick }) {
     </>
   )
 }
-
-
-
-
-
-export default ProgressControl;

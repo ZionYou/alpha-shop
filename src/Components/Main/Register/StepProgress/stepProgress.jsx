@@ -18,7 +18,7 @@ function Progress({number, phase, step}) {
   )
 }
 
-function StepProgress() {
+export default function StepProgress() {
   return(
 <>
   <h2 className="register-title col col-12">結帳</h2>
@@ -30,5 +30,3 @@ function StepProgress() {
   </>
   )
 }
-
-export default StepProgress;
